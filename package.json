@@ -1,0 +1,40 @@
+{
+  "name": "auto-upload-linux",
+  "version": "1.0.0",
+  "author": "sun yongfei",
+  "description": "自动打包上传服务器",
+  "main": "./lib/index.js",
+  "types": "./lib/src/index.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "keywords": ["autoupload","ssh2","upload","upload linux"],
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "chalk": "^4.1.0",
+    "ora": "^5.1.0",
+    "readline-sync": "^1.4.10",
+    "ssh2": "^0.8.9"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@types/archiver": "^3.1.1",
+    "@types/node": "^14.14.7",
+    "@types/readline-sync": "^1.4.3",
+    "@types/ssh2": "^0.5.45",
+    "rollup": "^2.33.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:syfjackey/auto-upload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syfjackey/auto-upload/issues"
+  },
+  "homepage": "https://github.com/syfjackey/auto-upload/#readme"
+}
